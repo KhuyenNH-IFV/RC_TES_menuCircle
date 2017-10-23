@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="dist/css/nav.css">
+        <title>テスト</title>
+        <script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+        <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js'></script>
+    </head>
+    <body>
+        <!-- ▼ header -->
+        <!-- ▼ sp -->
+        <div class="spNav-title">
+            <a class="spNav-titleLink js-ink" href="#" title="">
+                <img src="images/site-logo-v.svg" alt="arara" width="100%"/>
+            </a>
+        </div>
+        <div class="spNav-trigger">
+            <a href="#" title="">
+                <div class="icon">
+                    <div class="top"></div>
+                    <div class="mid"></div>
+                    <div class="bot"></div>
+                </div>
+            </a>
+        </div>
+        <nav class="spNav">
+            <div class="spNav_In">
+                <div class="spNav_group">
+                    <ul class="spNav_listWrap">
+                        <li class="spNav_list">
+                            <a class="spNav_itemsLink js-ink" href="#" data-alt="ホーム" title="HOME">HOME</a>
+                        </li>
+                        <li class="spNav_list">
+                            <a class="spNav_itemsLink spNav_child js-ink" data-alt="企業情報" title="COMPANY">企業情報<i class="fa fa-plus-circle"></i>
+                            </a>
+                            <ul class="spNav_item-company dn">
+                                <li class="spNav_sub2">
+                                    <a class="spNav_itemsLink js-ink" href="#" data-velocity="novelocity" data-alt="VISION" title="VISION">VISION</a>
+                                </li>
+                                <li class="spNav_sub2">
+                                    <a class="spNav_itemsLink js-ink" href="#" data-velocity="novelocity" data-alt="MESSAGE" title="MESSAGE">MESSAGE</a>
+                                </li>
+                                <li class="spNav_sub2">
+                                    <a class="spNav_itemsLink js-ink" href="#" data-velocity="novelocity" data-alt="MANAGEMENT TEAM" title="MANAGEMENT TEAM">MANAGEMENT TEAM</a>
+                                </li>
+                                <li class="spNav_sub2">
+                                    <a class="spNav_itemsLink js-ink" href="#" data-velocity="novelocity" data-alt="IR" title="IR">IR</a>
+                                </li>
+                                <li class="spNav_sub2">
+                                    <a class="spNav_itemsLink js-ink" href="/company/#information" data-velocity="novelocity" data-alt="INFORMATION" title="INFORMATION">INFORMATION</a>
+                                </li>
+                                <li class="spNav_sub2">
+                                    <a class="spNav_itemsLink js-ink" href="#s" data-velocity="novelocity" data-alt="ACCESS" title="ACCESS">ACCESS</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="spNav_list">
+                            <a class="spNav_itemsLink js-ink" href="#" data-alt="事業内容" title="SERVICE">事業内容</a>
+                        </li>
+                        <li class="spNav_list">
+                            <a class="spNav_itemsLink js-ink" href="#" data-alt="最新情報" title="NEWS">最新情報</a>
+                        </li>
+                        <li class="spNav_list">
+                            <a class="spNav_itemsLink js-ink" href="#" data-alt="採用情報" title="RECRUIT">採用情報</a>
+                        </li>
+                        <li class="spNav_list">
+                            <a class="spNav_itemsLink js-ink" href="#" data-alt="お問い合せ" title="CONTACT">お問い合せ</a>
+                        </li>
+                        <li class="spNav_list">
+                            <a class="spNav_itemsLink js-ink" href="" data-alt="ENGLISH" title="ENGLISH">
+                                <i class="fa fa-language"></i>
+                                ENGLISH</a>
+                        </li>
+                        <li class="spNav_list">
+                            <a class="spNav_itemsLink js-ink" href="#/" data-alt="フェイスブック" title="FACEBOOK" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                                FACEBOOK</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <canvas id="spNav-canvas" width="1000" height="1500"></canvas>
+        <div class="spNav-mask"></div>
+        <!-- △ sp -->
+        <!-- ▼ def -->
+        <div class="header-spacer"></div>
+        <header class="header">
+            <div class="header_In">
+                <p class="header_title js-show-effect js-show-effect--type-right">
+                    <a class="js-ink" href="#" title="arara">
+                        <img src="images/site-logo-v.svg" alt="arara"/>
+                    </a>
+                </p>
+                <div class="header_navGroup">
+                    <nav class="header_nav">
+                        <ul class="navList">
+                            <li class="navItems navType-company js-show-effect js-show-effect--type-down">
+                                <a class="navItems__hit js-ink" href="#" data-alt="企業情報" title="COMPANY">企業情報</a>
+                            </li>
+                            <li class="navItems navType-service js-show-effect js-show-effect--type-down">
+                                <a class="navItems__hit js-ink" href="#" data-alt="事業内容" title="SERVICE">事業内容</a>
+                            </li>
+                            <li class="navItems navType-news js-show-effect js-show-effect--type-down">
+                                <a class="navItems__hit js-ink" href="#" data-alt="最新情報" title="NEWS">最新情報</a>
+                            </li>
+                            <li class="navItems navType-recruit js-show-effect js-show-effect--type-down">
+                                <a class="navItems__hit js-ink" href="#" data-alt="採用情報" title="RECRUIT">採用情報</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header_btn header_btnLang_en js-show-effect js-show-effect--type-down">
+                        <a class="header_btn__hit" href="" title="">
+                            <i class="fa fa-language"></i>
+                            ENGLISH</a>
+                    </div>
+                    <div class="header_btn js-show-effect js-show-effect--type-down">
+                        <a class="header_btn__hit" href="#">
+                            <i class="fa fa-envelope-o"></i>
+                            お問い合わせ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- △ def -->
+        <!-- △ header -->
+        <script src="dist/js/libs/jquery.browser.min.js"></script>
+        <script src="dist/js/libs/jquery-peekaboo.js"></script>
+        <script src="dist/js/libs/jquery.primarycolor.min.js"></script>
+        <script type="text/javascript" src="dist/js/main.js"></script>
+    </body>
+</html>
